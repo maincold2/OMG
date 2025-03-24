@@ -18,6 +18,7 @@ git clone https://github.com/maincold2/OMG.git
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
+#### Install [TMC (GPCC)](https://github.com/MPEGGroup/mpeg-pcc-tmc13), and add tmc3 to your environment variable or manually specify its location in [the code](https://github.com/maincold2/OMG/blob/main/utils/gpcc_utils.py) (lines 243 and 258, this script is sourced from [HAC++](https://github.com/YihangChen-ee/HAC-plus)).
 If you have trouble in installing cuml, please refer to the [CUML Installation Guide](https://docs.rapids.ai/install/).
 
 We used [Mip-NeRF 360](https://jonbarron.info/mipnerf360/), [Tanks & Temples, and Deep Blending](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip).
@@ -51,7 +52,7 @@ Rendering with the compressed file (comp.xz), otherwise using the ply file. The 
 @article{lee2025omg,
   author    = {Lee, Joo Chan and Ko, Jong Hwan and Park, Eunbyung},
   title     = {Optimized Minimal 3D Gaussian Splatting},
-  journal   = {arXiv preprint arXiv:},
+  journal   = {arXiv preprint arXiv:2503.16924},
   year      = {2025},
 }
 ```
