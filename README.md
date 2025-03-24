@@ -1,7 +1,7 @@
 # Optimized Minimal 3D Gaussian Splatting
 ### Joo Chan Lee, Jong Hwan Ko, and Eunbyung Park
 
-### [[Project Page](https://maincold2.github.io/omg/)] [[Paper(arxiv)](https://arxiv.org/abs/)]
+### [[Project Page](https://maincold2.github.io/omg/)] [[Paper(arxiv)](https://arxiv.org/abs/2503.16924)]
 
 ## Method Overview
 <img src="https://github.com/maincold2/maincold2.github.io/blob/master/omg/images/fig_demo.jpg?raw=true" />
