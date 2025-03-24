@@ -1,0 +1,8 @@
+tqdm
+plyfile
+submodules/diff-gaussian-rasterization
+submodules/diff-gaussian-rasterization_ms
+submodules/simple-knn
+dahuffman
+git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+--extra-index-url=https://pypi.nvidia.com "cudf-cu12==25.2.*" "cuml-cu12==25.2.*"
